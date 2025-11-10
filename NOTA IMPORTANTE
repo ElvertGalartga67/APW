@@ -1,0 +1,12 @@
+Comandos importantes a destacar
+-- GIT HUB COMMANDS --
+> "git add ." -- Esto guarda todos los nuevos archivos que has creado al repositorio local --
+> "git commit -m "NameCommit"" -- Esto guarda todos los cambios que has hecho localmente -- 
+> "git push" -- Esto envia todo los archivos a tu repositorio --
+
+> "git clone (Enlace del repositorio)" -- Esto hace descargar toda la carpeta con todos los archivos creados --
+>> -- Despues de descargar la carpeta, abrelo con VSC --
+>> -- Repites los comandos del principio --
+> 1. "git add ."
+> 2. "git commit -m "NameCoomit""
+> 3. "git push" 
