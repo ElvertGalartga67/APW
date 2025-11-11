@@ -6,16 +6,25 @@
     <title>Document</title>
 </head>
 <style>
+    table, td{
+        border: 1px solid black;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+    }
+    td{
+        padding: 10px;
+    }
 </style>
 <body>
     <table>
         <tr>
-            <td>Uno</td>
+            <td rowspan="2">Uno y Cuatro</td>
             <td>Dos</td>
             <td>Tres</td>
         </tr>
         <tr>
-            <td>cuatro</td>
             <td>cinco</td>
             <td>seis</td>
         </tr>
@@ -23,11 +32,6 @@
             <td>siete</td>
             <td>ocho</td>
             <td>nueve</td>
-        </tr>
-        <tr>
-            <td>diez</td>
-            <td>once</td>
-            <td>doce</td>
         </tr>
     </table>
 </body>
