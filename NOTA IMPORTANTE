@@ -1,12 +1,17 @@
-Comandos importantes a destacar
--- GIT HUB COMMANDS --
-> "git add ." -- Esto guarda todos los nuevos archivos que has creado al repositorio local --
-> "git commit -m "NameCommit"" -- Esto guarda todos los cambios que has hecho localmente -- 
-> "git push" -- Esto envia todo los archivos a tu repositorio --
+### COMANDOS PARA GUARDAR Y SUBIR CAMBIOS ###
+> "git add ."                           -- Esto guarda todos los nuevos archivos que has creado al repositorio local --
+> "git commit -m "NameCommit""          -- Esto guarda todos los cambios que has hecho localmente -- 
+> "git push"                            -- Esto envia todo los archivos a tu repositorio --
 
-> "git clone (Enlace del repositorio)" -- Esto hace descargar toda la carpeta con todos los archivos creados --
->> -- Despues de descargar la carpeta, abrelo con VSC --
->> -- Repites los comandos del principio --
+> "git clone (Enlace del repositorio)"  -- Esto hace descargar toda la carpeta con todos los archivos creados --
+                                        -- Despues de descargar la carpeta, abrelo con VSC --
+                                        -- Repites los comandos del principio --
 > 1. "git add ."
 > 2. "git commit -m "NameCoomit""
 > 3. "git push" 
+
+### COMANDOS PARA CREAR UNA NUEVA RAMA ###
+> "git checkout -b HTML"                -- Sirve para crear una nueva rama y entrar directamente a ella --
+> "git checkout (Nombre de la rama)     -- Sirve para ir a la rama que creaste --
+> "git commit -m "NombreDelGuardado"    -- Crea un guardado de todos el contenido que habia en una rama --
+> "git push -u origin (Rama)            -- Mete todo el contenido que pusiste en el {git commit -m "NombreDelGuardado"} a la nueva rama que creaste
